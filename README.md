@@ -79,10 +79,10 @@ Enterprises maintain massive volumes of internal documentation (SOPs, HR policie
 ## 🗓️ Project Board & Milestones
 
 ### Milestone 1 (Week 1)
-- [x] FastAPI skeleton + deployed
-- [x] Supabase schema created
-- [x] Ingestion v1: chunk + store
-- [x] Vector search v1 working
+- [ ] FastAPI skeleton + deployed
+- [ ] Supabase schema created
+- [ ] Ingestion v1: chunk + store
+- [ ] Vector search v1 working
 
 ### Milestone 2 (Week 2)
 - [ ] Full-text search + hybrid scoring
