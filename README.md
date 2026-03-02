@@ -61,23 +61,40 @@ Enterprises maintain massive volumes of internal documentation (SOPs, HR policie
 
 ---
 
-## 🚀 Roadmap
-- [x] Backend API skeleton
-- [x] Document ingestion pipeline
-- [x] Hybrid retrieval implementation
-- [ ] Reranking integration
-- [ ] Citation enforcement logic
-- [ ] Evaluation pipeline & CI integration
-- [ ] Production deployment
-
----
-
 ## 🔧 Future Improvements
 * **RBAC:** Role-based document access control for sensitive HR/Legal files.
 * **Multi-tenancy:** Isolated indexing for different departments or clients.
 * **Observability:** Monitoring for retrieval "drift" and latency optimization.
 * **Caching:** Intelligent query caching to reduce LLM costs.
 
+---
+
+## 📦 Deployment
+* **Backend API:** Render / Railway
+* **Database:** Supabase (Postgres + `pgvector`)
+* **Frontend:** Vercel (Next.js)
+
+---
+
+## 🗓️ Project Board & Milestones
+
+### Milestone 1 (Week 1)
+- [x] FastAPI skeleton + deployed
+- [x] Supabase schema created
+- [x] Ingestion v1: chunk + store
+- [x] Vector search v1 working
+
+### Milestone 2 (Week 2)
+- [ ] Full-text search + hybrid scoring
+- [ ] Hybrid retrieval endpoint
+
+### Milestone 3 (Week 3)
+- [ ] Cross-encoder reranker
+- [ ] Citation enforcement
+
+### Milestone 4 (Week 4)
+- [ ] Evaluation + CI gate
+- [ ] Deployment polish + demo
 ---
 
 ## 📦 Deployment
